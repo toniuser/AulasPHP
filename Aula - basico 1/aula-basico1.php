@@ -26,4 +26,4 @@ $string2 = " lua";
 
 echo $string1.$string2;
 
-$string3 = "$string1.' '.$string2";
+$string3 = "$string1 $string2";

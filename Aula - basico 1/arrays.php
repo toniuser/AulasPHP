@@ -42,3 +42,27 @@ $array2 = [
 ];
 
 echo $array2[6];
+
+
+
+
+
+// chaves descritivas usando Arrays
+
+$arraydescritivo = array(
+	'toni' => 15,
+	200,00,
+	100.00,
+	3000 => 13,
+	"Paradoxo dos Gemeos"
+);
+
+echo $arraydescritivo[3001];
+
+
+echo $arraydescritivo['toni'].'<br>';
+
+
+echo $arraydescritivo[3000];
+
+var_dump($arraydescritivo);
